@@ -1,0 +1,27 @@
+name: default
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+jobs:
+  update_helm_registry:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: "Set up NodeJs"
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - name: "Run update script"
+        run: npm run default
+      - name: "Update registry"
+        run: |
+          git config --global user.email "nick.moon.1705@gmail.com"
+          git config --global user.name "Updater"
+          git add .
+          git commit -m "update: sync with keptn-contrib release"
+          git push origin --force
