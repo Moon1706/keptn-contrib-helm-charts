@@ -4,15 +4,7 @@ List of Keptn-contrib Helm charts.
 
 Own repo: [keptn-contrib](https://github.com/keptn-contrib)
 
-Support: `[
-    "prometheus-service",
-    "dynatrace-service",
-    "job-executor-service",
-    "argo-service",
-    "helm-service",
-    "jmeter-service",
-    "unleash-service"
-]`
+Support: `[ "prometheus-service", "dynatrace-service", "job-executor-service", "argo-service", "helm-service", "jmeter-service", "unleash-service" ]`
 
 ## Example
 
