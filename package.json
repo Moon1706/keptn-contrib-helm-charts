@@ -16,8 +16,17 @@
     "fmt": "prettier --write .",
     "lint": "npx eslint .",
     "build": "npm run clean && tsc",
-    "script": "node dist/index.js"
+    "script": "node dist/src/index.js"
   },
+  "repos": [
+    "prometheus-service",
+    "dynatrace-service",
+    "job-executor-service",
+    "argo-service",
+    "helm-service",
+    "jmeter-service",
+    "unleash-service"
+  ],
   "keywords": [
     "keptn-contrib",
     "helm",

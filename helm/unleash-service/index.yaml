@@ -1,0 +1,104 @@
+apiVersion: v1
+entries:
+  unleash-service:
+  - apiVersion: v2
+    appVersion: 0.4.2-next.1
+    created: "2022-09-13T11:32:29.2214905+04:00"
+    description: Helm Chart for the keptn unleash-service
+    digest: e2a70119380b22b22f20a406facc6749be849d733f541ece98295b228c11839e
+    name: unleash-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/unleash-service/releases/download/0.4.2-next.1/unleash-service-0.4.2-next.1.tgz
+    version: 0.4.2-next.1
+  - apiVersion: v2
+    appVersion: 0.4.2-next.0
+    created: "2022-09-13T11:32:29.2211361+04:00"
+    description: Helm Chart for the keptn unleash-service
+    digest: 07cfb1dcc638a6fd05447507464b45f11439579d0795614d56972ad0e87713f2
+    name: unleash-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/unleash-service/releases/download/0.4.2-next.0/unleash-service-0.4.2-next.0.tgz
+    version: 0.4.2-next.0
+  - apiVersion: v2
+    appVersion: 0.4.1
+    created: "2022-09-13T11:32:29.2202209+04:00"
+    description: Helm Chart for the keptn unleash-service
+    digest: 513852271c660723ab8bcc4c6788c7f795f335308444089949d79361f21394eb
+    name: unleash-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/unleash-service/releases/download/0.4.1/unleash-service-0.4.1.tgz
+    version: 0.4.1
+  - apiVersion: v2
+    appVersion: 0.4.1-next.0
+    created: "2022-09-13T11:32:29.2207204+04:00"
+    description: Helm Chart for the keptn unleash-service
+    digest: ed5d7e28d036eb7af6a33cbd4cf22ce683ed9b431ba0c7b5c805942803f54dfb
+    name: unleash-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/unleash-service/releases/download/0.4.1-next.0/unleash-service-0.4.1-next.0.tgz
+    version: 0.4.1-next.0
+  - apiVersion: v2
+    appVersion: 0.4.0
+    created: "2022-09-13T11:32:29.2162627+04:00"
+    description: Helm Chart for the keptn unleash-service
+    digest: bdf00413f2135c6dd0fc5287f8c16b1a8745decffaed7a9b1faee1dbbe0beebe
+    name: unleash-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/unleash-service/releases/download/0.4.0/unleash-service-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 0.4.0-next.3
+    created: "2022-09-13T11:32:29.2183374+04:00"
+    description: Helm Chart for the keptn unleash-service
+    digest: 416343f7e8499975bdeac11cea76a69b89e4458af31acf6a3afdbd5375e012ec
+    name: unleash-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/unleash-service/releases/download/0.4.0-next.3/unleash-service-0.4.0-next.3.tgz
+    version: 0.4.0-next.3
+  - apiVersion: v2
+    appVersion: 0.4.0-next.2
+    created: "2022-09-13T11:32:29.2178067+04:00"
+    description: Helm Chart for the keptn unleash-service
+    digest: 4495487fffd2a4e872eb1c29e40ff40050be8e05c6ac40284d6a1a500b4f6540
+    name: unleash-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/unleash-service/releases/download/0.4.0-next.2/unleash-service-0.4.0-next.2.tgz
+    version: 0.4.0-next.2
+  - apiVersion: v2
+    appVersion: 0.4.0-next.1
+    created: "2022-09-13T11:32:29.2172687+04:00"
+    description: Helm Chart for the keptn unleash-service
+    digest: 5facef16d82b92d112423b75e3650c1eaa0e7a8297255af02a47803b94daafa9
+    name: unleash-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/unleash-service/releases/download/0.4.0-next.1/unleash-service-0.4.0-next.1.tgz
+    version: 0.4.0-next.1
+  - apiVersion: v2
+    appVersion: 0.4.0-next.0
+    created: "2022-09-13T11:32:29.2167389+04:00"
+    description: Helm Chart for the keptn unleash-service
+    digest: 68259c970d8921a1576c39e31a99d16541cadb544f3c3f806803c41f33ea61a3
+    name: unleash-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/unleash-service/releases/download/0.4.0-next.0/unleash-service-0.4.0-next.0.tgz
+    version: 0.4.0-next.0
+  - apiVersion: v2
+    appVersion: 0.3.3-next.0
+    created: "2022-09-13T11:32:29.2158018+04:00"
+    description: Helm Chart for the keptn unleash-service
+    digest: f785c9a58605b4b1ad8fe67a73e4a2b1343f0fffc1411fa2948650617460c2e8
+    name: unleash-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/unleash-service/releases/download/0.3.3-next.0/unleash-service-0.3.3-next.0.tgz
+    version: 0.3.3-next.0
+generated: "2022-09-13T11:32:29.2152309+04:00"

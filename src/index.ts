@@ -1,6 +1,7 @@
 import { Octokit } from '@octokit/rest';
 import { rmSync, copyFileSync, mkdirSync, existsSync } from 'fs';
 import * as execa from 'execa';
+import { repos } from '../package.json';
 
 function createFolderRepo(folder: string) {
     if (!existsSync(folder)) {
@@ -13,7 +14,7 @@ function updateRegistry(repos: Array<string>) {
     for (const repo of repos) {
         const folderPath = repo;
         const folderFilePath = `${repo}_files`;
-        createFolderRepo(folderPath);
+        createFolderRepo(`helm/${folderPath}`);
         const listRelease = octokit.rest.repos.listReleases({
             owner: 'keptn-contrib',
             repo: repo,
@@ -22,10 +23,12 @@ function updateRegistry(repos: Array<string>) {
             const releasesWithAsserts = releases.data.filter(
                 (element: any) => element.assets.length
             );
+            console.log(`Repo: ${repo}\nVersions:`);
             for (const releaseWithAsserts of releasesWithAsserts) {
                 const downloadUrl =
                     releaseWithAsserts.assets[0].browser_download_url;
                 const version = downloadUrl.split('/').slice(-2, -1);
+                console.log(version);
                 createFolderRepo(`../${folderFilePath}/${version}`);
                 execa.sync('wget', [
                     downloadUrl,
@@ -47,12 +50,12 @@ function updateRegistry(repos: Array<string>) {
             ]);
             copyFileSync(
                 `./${folderFilePath}/index.yaml`,
-                `./${folderPath}/index.yaml`
+                `./helm/${folderPath}/index.yaml`
             );
+            console.log(`Index path: helm/${folderPath}/index.yaml\n`);
             rmSync(folderFilePath, { recursive: true, force: true });
         });
     }
 }
 
-const repos = ['prometheus-service'];
 updateRegistry(repos);

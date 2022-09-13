@@ -1,0 +1,204 @@
+apiVersion: v1
+entries:
+  dynatrace-service:
+  - apiVersion: v2
+    appVersion: 0.23.2
+    created: "2022-09-13T11:33:16.6279922+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: 7de46b90ae647167cb63aa8eb45bc094ab10a492500f0b0dfc881f6bb4e73040
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.23.2/dynatrace-service-0.23.2.tgz
+    version: 0.23.2
+  - apiVersion: v2
+    appVersion: 0.23.1
+    created: "2022-09-13T11:33:16.6276315+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: bcf8bcd16b126bb5527c6c16a542d336f0baea02182ce1e5414c9decfcf80367
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.23.1/dynatrace-service-0.23.1.tgz
+    version: 0.23.1
+  - apiVersion: v2
+    appVersion: 0.23.0
+    created: "2022-09-13T11:33:16.6272529+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: a76f727db177e7efc1adb2124e9c6d6deda4320f28f47a15309937d0051f19ab
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.23.0/dynatrace-service-0.23.0.tgz
+    version: 0.23.0
+  - apiVersion: v2
+    appVersion: 0.22.0
+    created: "2022-09-13T11:33:16.6268703+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: 8552a9f34577ac843ccd6e96aaadc5f5ea438073e88a27f36a9b7429bd8097da
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.22.0/dynatrace-service-0.22.0.tgz
+    version: 0.22.0
+  - apiVersion: v2
+    appVersion: 0.21.0
+    created: "2022-09-13T11:33:16.6264638+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: 1be7742600f0298cd927dd150547e11872a76a7ad572269cf080eea659050f8b
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.21.0/dynatrace-service-0.21.0.tgz
+    version: 0.21.0
+  - apiVersion: v2
+    appVersion: 0.20.0
+    created: "2022-09-13T11:33:16.6260506+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: 66b39f1e1bd0b375e99196f2c288488c4ccbcaac678bbbb3b0336f720b4008a8
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.20.0/dynatrace-service-0.20.0.tgz
+    version: 0.20.0
+  - apiVersion: v2
+    appVersion: 0.19.0
+    created: "2022-09-13T11:33:16.6256661+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: 6e229a39edd9b4fc33cf2ff5b4a34b1caa9248ddd225792902b2441381253753
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.19.0/dynatrace-service-0.19.0.tgz
+    version: 0.19.0
+  - apiVersion: v2
+    appVersion: 0.18.1
+    created: "2022-09-13T11:33:16.6252396+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: d4b807320bab76baa883cff080366a2e7114797f29b5352039bb5a22267bb85b
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.18.1/dynatrace-service-0.18.1.tgz
+    version: 0.18.1
+  - apiVersion: v2
+    appVersion: 0.18.0
+    created: "2022-09-13T11:33:16.6248196+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: cf7ea498937a8d75de4146016e103785d1816a40e40987497a050402ab08b5ca
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.18.0/dynatrace-service-0.18.0.tgz
+    version: 0.18.0
+  - apiVersion: v2
+    appVersion: 0.17.1
+    created: "2022-09-13T11:33:16.6243268+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: 3f8b8e4fc67332d149042cece0c5625a0337e2d602d940a70a8a979649cab759
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.17.1/dynatrace-service-0.17.1.tgz
+    version: 0.17.1
+  - apiVersion: v2
+    appVersion: 0.17.0
+    created: "2022-09-13T11:33:16.6238348+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: 8921bb903345da6bff37b00ef9d9c8776983c54f582ff24466bfb59cec28de44
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.17.0/dynatrace-service-0.17.0.tgz
+    version: 0.17.0
+  - apiVersion: v2
+    appVersion: 0.16.1-dev-PR-497.202109231206
+    created: "2022-09-13T11:33:16.6233514+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: fe13937ec124b472f049e733a618c012f66757389e357f380e5220cd73b6b6a1
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.16.1-dev-PR-497.202109231206/dynatrace-service-0.16.1-dev-PR-497.202109231206.tgz
+    version: 0.16.1-dev-PR-497.202109231206
+  - apiVersion: v2
+    appVersion: 0.16.0
+    created: "2022-09-13T11:33:16.6229353+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: 3813b2267ece39334fff19c734d81fec8f675aa96e60d8c77dbe4ec74c2654a9
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.16.0/dynatrace-service-0.16.0.tgz
+    version: 0.16.0
+  - apiVersion: v2
+    appVersion: 0.15.1
+    created: "2022-09-13T11:33:16.6207302+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: e40dc517692917c57eb8e7f040f1c1385341d6852cff08162aa545c435587a52
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.15.1/dynatrace-service-0.15.1.tgz
+    version: 0.15.1
+  - apiVersion: v2
+    appVersion: 0.15.1-dev.202107141119
+    created: "2022-09-13T11:33:16.6223887+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: d0eb38c018d40c000e63cbd196552235ccda415a4ec991bbf25de1ba32043d8d
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.15.1-dev.202107141119/dynatrace-service-0.15.1-dev.202107141119.tgz
+    version: 0.15.1-dev.202107141119
+  - apiVersion: v2
+    appVersion: 0.15.0
+    created: "2022-09-13T11:33:16.6203496+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: 64c3baefcec9caaf64698825050db0136033ac92401fa7a49571c3f0ec2727c1
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.15.0/dynatrace-service-0.15.0.tgz
+    version: 0.15.0
+  - apiVersion: v2
+    appVersion: 0.14.1-dev.202106211140
+    created: "2022-09-13T11:33:16.6199786+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: 523cdad5682cec9b68732d64aeefa1caf9d3147455779391e66fcabf991537aa
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.14.1-dev.202106211140/dynatrace-service-0.14.1-dev.202106211140.tgz
+    version: 0.14.1-dev.202106211140
+  - apiVersion: v2
+    appVersion: 0.14.0
+    created: "2022-09-13T11:33:16.6195157+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: 5b3a33736733a9ab53e607b2ae84abaca4917c9f97bf522aa879f7d3f1d845b5
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.14.0/dynatrace-service-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v2
+    appVersion: 0.13.1
+    created: "2022-09-13T11:33:16.6191217+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: 3d1bee6ec40e5222aee58bdab313132a8c9dca46a810529b61d46359f305158d
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.13.1/dynatrace-service-0.13.1.tgz
+    version: 0.13.1
+  - apiVersion: v2
+    appVersion: 0.13.0
+    created: "2022-09-13T11:33:16.61875+04:00"
+    description: Helm Chart for the keptn-contrib dynatrace-service
+    digest: b253a639b752f5e73d7438706a9b5136ff9d62c4785a3ff83cb067be3b9e59e4
+    name: dynatrace-service
+    type: application
+    urls:
+    - https://github.com/keptn-contrib/dynatrace-service/releases/download/0.13.0/dynatrace-service-0.13.0.tgz
+    version: 0.13.0
+generated: "2022-09-13T11:33:16.6182116+04:00"
