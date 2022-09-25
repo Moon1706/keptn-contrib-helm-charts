@@ -3,7 +3,7 @@ entries:
   helm-service:
   - apiVersion: v2
     appVersion: 0.18.1
-    created: "2022-09-18T02:35:32.240441668Z"
+    created: "2022-09-25T02:25:34.965276118Z"
     description: Helm Chart for the keptn helm-service
     digest: dd49832bcd19063af2192980a480215ab9cb1056ad940c62b366db5730aa9643
     name: helm-service
@@ -13,7 +13,7 @@ entries:
     version: 0.18.1
   - apiVersion: v2
     appVersion: 0.18.0
-    created: "2022-09-18T02:35:32.236625156Z"
+    created: "2022-09-25T02:25:34.964021805Z"
     description: Helm Chart for the keptn helm-service
     digest: 537b9d35973b3bb881790b5d02478f72b9167d484b7fc7737baa324ad9526bf6
     name: helm-service
@@ -23,7 +23,7 @@ entries:
     version: 0.18.0
   - apiVersion: v2
     appVersion: 0.18.0-next.0
-    created: "2022-09-18T02:35:32.239448865Z"
+    created: "2022-09-25T02:25:34.964689112Z"
     description: Helm Chart for the keptn helm-service
     digest: 49b75ecf2195fd754481e7ba4d8de170f2df013319a9eb3fe0668c61505a2262
     name: helm-service
@@ -31,4 +31,4 @@ entries:
     urls:
     - https://github.com/keptn-contrib/helm-service/releases/download/0.18.0-next.0/helm-service-0.18.0-next.0.tgz
     version: 0.18.0-next.0
-generated: "2022-09-18T02:35:32.235667853Z"
+generated: "2022-09-25T02:25:34.963127996Z"
