@@ -13,9 +13,9 @@ targetRepos:
       - name: "argo-service"
         filesPattern:
           - 'argo\-service\-(\d+\.){3}tgz$'
-      # - name: "helm-service"
-      #   filesPattern:
-      #     - 'helm\-service\-(\d+\.){3}tgz$'
+      - name: "helm-service"
+        filesPattern:
+          - 'helm\-service\-(\d+\.){3}tgz$'
       - name: "jmeter-service"
         filesPattern:
           - 'jmeter\-service\-(\d+\.){3}tgz$'
