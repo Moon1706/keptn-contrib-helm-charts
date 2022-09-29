@@ -37,11 +37,7 @@ export function updateRegistry(config: string) {
                 for (const release of releasesWithAsserts) {
                     for (const asset of release.assets) {
                         for (const pattern of repo.filesPattern) {
-                            if (
-                                asset.name.match(
-                                    new RegExp(pattern)
-                                )
-                            ) {
+                            if (asset.name.match(new RegExp(pattern))) {
                                 console.log(asset.browser_download_url);
                                 execa.sync('wget', [
                                     `--header=Authorization: Bearer ${settings.github.token}`,
