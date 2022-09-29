@@ -1,6 +1,6 @@
 {
   "name": "keptn-contrib-helm-charts",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "Apache License 2.0",
   "author": "Mikita Sharayeu <nick.moon.1705@gmail.com>",
   "repository": {
@@ -16,27 +16,21 @@
     "fmt": "prettier --write .",
     "lint": "npx eslint .",
     "build": "npm run clean && tsc",
-    "script": "node dist/src/index.js"
+    "script": "node dist/index.js"
   },
-  "repos": [
-    "prometheus-service",
-    "dynatrace-service",
-    "job-executor-service",
-    "argo-service",
-    "helm-service",
-    "jmeter-service",
-    "unleash-service"
-  ],
   "keywords": [
+    "kepnt",
     "keptn-contrib",
     "helm",
     "typescript"
   ],
   "dependencies": {
     "@octokit/rest": "^19.0.4",
-    "execa": "^5.1.1"
+    "execa": "^5.1.1",
+    "js-yaml": "^4.1.0"
   },
   "devDependencies": {
+    "@types/js-yaml": "^4.0.5",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
     "eslint": "^8.18.0",

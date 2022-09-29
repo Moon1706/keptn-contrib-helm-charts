@@ -1,0 +1,34 @@
+targetRepos:
+  - owner: "keptn-contrib"
+    repos:
+      - name: "prometheus-service"
+        filesPattern:
+          - 'prometheus\-service\-(\d+\.){3}tgz$'
+      - name: "dynatrace-service"
+        filesPattern:
+          - 'dynatrace\-service\-(\d+\.){3}tgz$'
+      - name: "job-executor-service"
+        filesPattern:
+          - 'job\-executor\-service\-(\d+\.){3}tgz$'
+      - name: "argo-service"
+        filesPattern:
+          - 'argo\-service\-(\d+\.){3}tgz$'
+      # - name: "helm-service"
+      #   filesPattern:
+      #     - 'helm\-service\-(\d+\.){3}tgz$'
+      - name: "jmeter-service"
+        filesPattern:
+          - 'jmeter\-service\-(\d+\.){3}tgz$'
+      - name: "unleash-service"
+        filesPattern:
+          - 'unleash\-service\-(\d+\.){3}tgz$'
+  - owner: "keptn"
+    repos:
+      - name: "keptn"
+        filesPattern:
+          - 'keptn\-(\d+\.){3}tgz$'
+          - 'common\-(\d+\.){3}tgz$'
+targetFolder: "helm-registry"
+github:
+  url: "https://api.github.com"
+  token: ""
